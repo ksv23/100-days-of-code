@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Lesson: HTML</title>
+</head>
+
+<body>
+    <h1>First Lesson: HTML</h1>
+
+    <h2>Heaviest Birds</h2>
+    <h3>Table</h3>
+    <!-- th (table head), tr(table row), td (table cells) -->
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>KG</th>
+                <th>LB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>104</td>
+                <td>130</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>104</td>
+                <td>130</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h2>Forms</h2>
+    <form action="https://www.google.com/search">
+        <p>
+            <label for="username">Username:</label>
+            <input id="username" type="text" placeholder="Username">
+        </p>
+
+        <p>
+            <label for="pw">Password:</label>
+            <input id="pw" type="password" placeholder="Password">
+        </p>
+
+        <p>
+            <label for="google">Google Search: </label>
+            <input id="google" type="text" name="q" placeholder="Search">
+            <input type="submit" value="Google Search (input)">
+            <button type="submit">Submit (button)</button>
+        </p>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <label for="video">Youtube Search:</label>
+        <input id="video" type="text" name="search_query" placeholder="Youtube Search">
+        <button type="submit">Youtube</button>
+    </form>
+
+    <h3>Input types</h3>
+    <form action="/types">
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+
+        </p>
+        <p>
+            <label for="movie-select">Select a Movie:</label>
+            <select name="movies" id="movie-select">
+                <option value="">Movie Selection</option>
+                <option value="hp">Harry Potter</option>
+                <option value="lr">Lord of the Rings</option>
+                <option value="br">Battle Royale</option>
+                <option value="tb">Train to Busan</option>
+                <option value="mg">My Girl</option>
+            </select>
+        </p>
+
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Leave Comment here"></textarea>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <h3>Validation Form</h3>
+    <form action="/validation">
+        <p>
+            <label for="first">First Name:</label>
+            <input type="text" name="first" id="first" required>
+        </p>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="10" required>
+        </p>
+
+
+        <button>Submit</button>
+    </form>
+
+    <hr>
+    <h2>Assignment: Registration Form</h2>
+    <form action="/registration">
+        <div>
+            <label for="first">First Name:</label>
+            <input type="text" name="first" id="first" placeholder="First Name" required>
+            <label for="last">Last Name:</label>
+            <input type="text" name="last" id="last" placeholder="Last Name" required>
+        </div>
+
+        <p>
+            Select a Race:
+        </p>
+
+        <div>
+            <input type="radio" name="run" id="fivek">
+            <label for="fivek">Fun Run 5k</label>
+        </div>
+
+        <div>
+            <input type="radio" name="run" id="half">
+            <label for="half">Half Marathon</label>
+        </div>
+
+        <div>
+            <input type="radio" name="run" id="full">
+            <label for="full">Full Marathon</label>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="division">Select Age Group:</label>
+            <select name="division" id="division">
+                <option value="kids">Under 18</option>
+                <option value="youth">18-30</option>
+                <option value="adults">31-50</option>
+                <option value="seniors">50+</option>
+            </select>
+        </div>
+        <button>Register!</button>
+    </form>
+
+
+    <p>
+        <a href="ksv.html">Go to Homepage</a>
+    </p>
+    <p>
+        <a href="lesson2.html">Go To Second Lesson</a>
+    </p>
+</body>
+
+</html>

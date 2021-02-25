@@ -1,0 +1,19 @@
+#intro {
+    width: 100%;
+    height: 350px;
+    background-color: antiquewhite;
+    text-align: center;
+    /* border-width: 3px;
+    border-color: black;
+    border-style: solid; */
+    /* border: width | style | color */
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+img {
+    /* padding: vertical | horizontal */
+    /* padding: top | right | bottom | left */
+    padding: 10px;
+    border-radius: 30px;
+}
