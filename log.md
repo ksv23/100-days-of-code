@@ -30,5 +30,5 @@
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
 
 
-###LOG 1
-Pushing Lessons to git
+### LOG 1 
+* Pushing Lessons to git 
