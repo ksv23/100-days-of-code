@@ -16,4 +16,4 @@ More Methods:
 10. .indexOf - just like string.indexOf
 11. .reverse() - reverses an array
 12. .slice - copies a portion on an array
-13. .splice - removes/replaces elementsxw
+13. .splice - removes/replaces elementsxws

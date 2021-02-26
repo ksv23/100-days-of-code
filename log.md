@@ -30,7 +30,12 @@
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
 ------------------------------------------
 ------------------------------------------
+
 # 100 Days Of Code - Log
 ### Day 0: February 24, 2021
 **Today's Progress**: Forked, Cloned, Pushed on git.
 **Thoughts**: Push myself to keep going!
+
+### Day 1: February 25, 2021
+**Today's Progress**: Introduction to Array
+**Thoughts**: 

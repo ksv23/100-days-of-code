@@ -19,3 +19,4 @@ let warmColors = colors.slice(0, 3);
 //>>(3)["red", "orange", "yellow"]
 
 ////Splice Method
+s
