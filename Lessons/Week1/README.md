@@ -17,3 +17,14 @@ More Methods:
 11. .reverse() - reverses an array
 12. .slice - copies a portion on an array
 13. .splice - removes/replaces elementsxws
+14. .sort() - sorts an array
+
+15. const + arrays - the values can change, as long as the reference remains the same
+    ex: const myEggs = ['brown', 'white']
+        myEggs.push('pink');
+        myEggs[0]='green';
+
+
+16. nested arrays - store arrays inside other arrays
+
+### SECTION 18: Object Literals

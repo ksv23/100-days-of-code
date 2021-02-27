@@ -19,4 +19,22 @@ let warmColors = colors.slice(0, 3);
 //>>(3)["red", "orange", "yellow"]
 
 ////Splice Method
-s
+let spliceColors = colors.splice(1, 0, 'red-orange');
+//>>colors (8) ["red", "red-orange", "orange", "yellow", "green", "blue", "indigo", "violet"]
+
+////Sort Method
+let scores = [1, 2, 22, 34, 54, 657, 88, 80]
+console.log(scores.sort());
+//>>(8) [1, 2, 22, 34, 54, 657, 80, 88]
+
+/////Nested Arrays
+const board = [
+    ['0', 'x', '0'],
+    ['x', null, 'x'],
+    ['x', '0', 'x']
+]
+
+console.log(board);
+console.log(board[1][2]); //>> x
+console.log(board[1][1]); //>> null
+

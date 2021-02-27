@@ -39,3 +39,6 @@
 ### Day 1: February 25, 2021
 **Today's Progress**: Introduction to Array
 **Thoughts**: 
+
+### Day 2: Feb 26, 2021
+**Today's Progress**: Continuation of Array
