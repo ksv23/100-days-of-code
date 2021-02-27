@@ -28,3 +28,10 @@ More Methods:
 16. nested arrays - store arrays inside other arrays
 
 ### SECTION 18: Object Literals
+**NOTES on OBJECTS**:
+1. Objects are collections of properties.
+2. Properties are a key-value pair. Property = key + value.
+3. Rather than accessing data using an index, we use custom keys.
+4. To access data out of objects: objectVariable["key"] ex: let person = {first: "kring"}, person["first"]
+5. Another way to access data out of objects: object.key ex: let person = {first: "kring"}, person.first
+6. Valid keys - all keys are converted into strings, except symbols.

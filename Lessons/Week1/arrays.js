@@ -38,3 +38,4 @@ console.log(board);
 console.log(board[1][2]); //>> x
 console.log(board[1][1]); //>> null
 
+///////////////////////////////

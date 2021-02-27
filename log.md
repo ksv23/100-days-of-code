@@ -41,4 +41,5 @@
 **Thoughts**: 
 
 ### Day 2: Feb 26, 2021
-**Today's Progress**: Continuation of Array
+**Today's Progress**: Finished intro to array. Next up is object literals.
+**Thoughts**: Had a difficult time solving one of the exercises but was able to solve it by not giving up!
