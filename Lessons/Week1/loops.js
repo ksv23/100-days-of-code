@@ -88,3 +88,8 @@ while (count < 10) {
 //     guess = prompt("enter the secret code");
 // }
 // console.log("congrats you got it!");
+
+// for (let i = 0; i < 1000; i++) {
+//     console.log(i);
+//     if (i === 10) break;
+// }
