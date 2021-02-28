@@ -35,3 +35,16 @@ More Methods:
 4. To access data out of objects: objectVariable["key"] ex: let person = {first: "kring"}, person["first"]
 5. Another way to access data out of objects: object.key ex: let person = {first: "kring"}, person.first
 6. Valid keys - all keys are converted into strings, except symbols.
+
+### SECTION 19: Loops
+**NOTES on For Loops**:
+1. for ([initialExpression]; [condition]; [incrementExpression]) {
+    statement
+}
+
+**NOTES on While Loops**:
+1. While loops continue running as long as test condition is true.
+2. while (condition){
+    statement
+}
+3. 
