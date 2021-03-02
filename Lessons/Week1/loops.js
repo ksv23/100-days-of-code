@@ -72,6 +72,12 @@ for (let i = 0; i < seatingChart.length; i++) {
         console.log(row[j]);
     }
 }
+//or for...of
+for (let row of seatingChart) {
+    for (let student of row) {
+        console.log(student);
+    }
+}
 
 ////////////////////////
 
@@ -93,3 +99,47 @@ while (count < 10) {
 //     console.log(i);
 //     if (i === 10) break;
 // }
+
+///For... Of Loop
+const subreddits = ['cringe', 'books', 'chickens', 'funny', 'pics', 'soccer', 'movies'];
+
+for (let sub of subreddits) {
+    console.log(sub);
+}
+
+
+// for (let char of "hello world") {
+//     console.log(char);
+// }
+
+
+//For..Of exercise
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// WRITE YOUR LOOP BELOW THIS LINE:
+for (let num of numbers) {
+    console.log(Math.pow(num, 2));
+}
+
+console.log("Iterating over Objects")
+//Iterating over objects
+const testScores = {
+    keen: 90,
+    rob: 80,
+    kim: 70,
+    cloe: 60,
+    shaun: 50,
+    colt: 40,
+    steele: 30
+}
+
+// for (let person in testScores) {
+//     console.log(`${person} scored ${testScores[person]}`);
+// }
+
+let total = 0;
+let totScore = Object.values(testScores); //array of scores
+for (let score of totScore) {
+    total += score; //Adding all the scores
+}
+console.log(total / totScore.length); //Average of all the scores

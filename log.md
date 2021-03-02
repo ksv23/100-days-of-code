@@ -48,3 +48,6 @@
 **Today's Progress**: Loops Loops Loops!
 **Thoughts**: Had a difficult time solving one of the exercises but was able to solve it by not giving up!
 
+### Day 4: Mar 1, 2021
+**Today's Progress**: More Loops!
+**Thoughts**: Missed one day... Must keep going!\

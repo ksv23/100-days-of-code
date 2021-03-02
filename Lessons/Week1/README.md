@@ -37,14 +37,21 @@ More Methods:
 6. Valid keys - all keys are converted into strings, except symbols.
 
 ### SECTION 19: Loops
-**NOTES on For Loops**:
-1. for ([initialExpression]; [condition]; [incrementExpression]) {
+**NOTES on Loops**:
+1. FOR LOOP
+    a. for ([initialExpression]; [condition]; [incrementExpression]) {
     statement
 }
-
-**NOTES on While Loops**:
-1. While loops continue running as long as test condition is true.
-2. while (condition){
+2. WHILE LOOP
+    a. While loops continue running as long as test condition is true.
+    b. while (condition){
     statement
 }
-3. 
+4. Created a guessing game.
+5. For.. Of
+    a. for (variable of iterable){
+        statement
+    }
+6. Object.values() - returns an array of a given object's own enumerable property values.
+7. Object.keys() - returns an array of a given object's own enumerable property names.
+8. Object.entries() - returns an array of a given object's own enumerable string-keyed property [key, value] pairs
