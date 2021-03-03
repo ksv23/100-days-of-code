@@ -50,4 +50,8 @@
 
 ### Day 4: Mar 1, 2021
 **Today's Progress**: More Loops!
-**Thoughts**: Missed one day... Must keep going!\
+**Thoughts**: Missed one day... Must keep going! Finished Section 19. I had a hard time doing the "to-do list" app by myself, so I ended up following the code along video of colt.. :(
+
+### Day 5: Mar 2, 2021
+**Today's Progress**: Learned Intro to Functions.
+**Thoughts**: Need to spend more time coding. 
