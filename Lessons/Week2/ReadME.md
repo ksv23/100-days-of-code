@@ -23,3 +23,18 @@
 8. 'Return' stops the execution.
 9. Can only 'return' ONE value.
 10. 'Return' is how we get value out of a function so we can save them and caputure them.
+
+### Section 21: More Functions
+**Notes on Functions**:
+1. Function Scope: 
+    ex: function helpMe(){
+        let msg = "fire!"
+        msg; //fire
+    }
+    msg; //NOT DEFINED.
+msg is scoped to the helpMe function
+
+2. Function Expression: store a function in a variable.
+3. Higher Order Functions: functions that operate on/with other functions.
+    a. accept other functions as arguments
+    b. return a function

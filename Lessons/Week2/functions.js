@@ -111,3 +111,65 @@ function returnDay(x) {
         return null;
     }
 }
+
+
+///Function Scope
+function helpMe() {
+    let msg = "fire!"
+    msg; //fire
+}
+
+
+///Block Scope
+let radius = 8;
+if (radius > 0) {
+    const PI = 3.14159;
+    let circ = 2 * PI * radius;
+}
+
+// console.log(radius); //>>8
+// console.log(PI); //>>NOT DEFINED ; block scoped
+// console.log(circ); //>>NOT DEFINED ; block scoped
+
+///Lexical Scope
+function bankRobber() {
+    const heroes = ['Spiderman', 'Wolverine', 'Black Panther']
+    function cryForHelp() {
+        function inner() {
+
+            for (let hero of heroes) {
+                console.log(`Please help us, ${heroes}`);
+            }
+        }
+        inner();
+    }
+    cryForHelp();
+
+}
+
+
+///Function Expressions
+const subtract = function (x, y) {
+    return x - y;
+}
+
+//Exercise 44: Function that returns the square of a number
+const square = function (x) {
+    return Math.pow(x, 2);
+};
+
+///Higher order functions
+function callTwice(func) {
+    func();
+    func();
+}
+
+function rollDie() {
+    const roll = Math.floor(Math.random() * 6) + 1
+    console.log(roll);
+}
+
+callTwice(rollDie)
+
+
+///Returning Functions

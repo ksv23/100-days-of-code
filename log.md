@@ -53,5 +53,10 @@
 **Thoughts**: Missed one day... Must keep going! Finished Section 19. I had a hard time doing the "to-do list" app by myself, so I ended up following the code along video of colt.. :(
 
 ### Day 5: Mar 2, 2021
-**Today's Progress**: Learned Intro to Functions.
+**Today's Progress**: Learned Intro to Functions
 **Thoughts**: Need to spend more time coding. I did well on the exercises, although it was faily simple problems.
+
+
+### Day 6: Mar 3, 2021
+**Today's Progress**: More Functions!
+**Thoughts**: Always had a hard time understanding functions...
