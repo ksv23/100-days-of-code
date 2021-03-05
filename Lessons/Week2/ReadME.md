@@ -38,3 +38,18 @@ msg is scoped to the helpMe function
 3. Higher Order Functions: functions that operate on/with other functions.
     a. accept other functions as arguments
     b. return a function
+
+4. Defining Methods: we can add functions as properties on objects.
+    a. Every Method = Function but NOT every Function != Method.
+5. 'This' Method: the keyword 'this' is to access other properties on the same object.
+6. Try/Catch
+    a. Syntax
+        try {
+            try_statements
+        }
+        [catch [(exception_var)] {
+            catch_statements
+        }]
+        [finally {
+            finally_statements
+        }]

@@ -29,6 +29,11 @@ More Methods:
 
 ### SECTION 18: Object Literals
 **NOTES on OBJECTS**:
+a. Syntax 
+    var obj = { property_1:   value_1,   // property_# may be an identifier...
+            2:            value_2,   // or a number...
+            // ...,
+            'property n': value_n }; // or a string
 1. Objects are collections of properties.
 2. Properties are a key-value pair. Property = key + value.
 3. Rather than accessing data using an index, we use custom keys.

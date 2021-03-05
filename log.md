@@ -37,26 +37,30 @@
 **Thoughts**: Push myself to keep going!
 
 ### Day 1: February 25, 2021
-**Today's Progress**: Introduction to Array
+**Today's Progress**: Introduction to Array (Section 17)
 **Thoughts**: 
 
 ### Day 2: Feb 26, 2021
-**Today's Progress**: Finished intro to array. Next up is object literals.
+**Today's Progress**: Finished intro to array. Next up is object literals. (Section 17 & 18)
 **Thoughts**: Had a difficult time solving one of the exercises but was able to solve it by not giving up!
 
 ### Day 3: Feb 27, 2021
-**Today's Progress**: Loops Loops Loops!
+**Today's Progress**: Loops Loops Loops! (Section 19)
 **Thoughts**: Had a difficult time solving one of the exercises but was able to solve it by not giving up!
 
 ### Day 4: Mar 1, 2021
-**Today's Progress**: More Loops!
+**Today's Progress**: More Loops! (Section 19)
 **Thoughts**: Missed one day... Must keep going! Finished Section 19. I had a hard time doing the "to-do list" app by myself, so I ended up following the code along video of colt.. :(
 
 ### Day 5: Mar 2, 2021
-**Today's Progress**: Learned Intro to Functions
+**Today's Progress**: Learned Intro to Functions (Section 20)
 **Thoughts**: Need to spend more time coding. I did well on the exercises, although it was faily simple problems.
 
 
-### Day 6: Mar 3, 2021
-**Today's Progress**: More Functions!
+### Day 6: Mar 3, 2021 
+**Today's Progress**: More Functions! (Section 21)
 **Thoughts**: Always had a hard time understanding functions...
+
+
+### Day 7: Mar 4, 2021
+**Today's Progress**: Finished Function. Intro to Callbacks & Array Methods (Section 21 & 22)
