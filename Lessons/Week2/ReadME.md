@@ -53,3 +53,19 @@ msg is scoped to the helpMe function
         [finally {
             finally_statements
         }]
+
+
+### Section 22: Callbacks & Array Methods
+**Notes on Functions**:
+1. forEach Method: executes a provided function once for each array element
+    a. Syntax 
+    array.forEach(function(currentValue, index, arr), thisValue)
+
+2. Map Method: creates a new array with the results of calling a callback on every element in the array
+    a. taking a data in an array , and transforming it as a map into a new copied array
+    b. typically used for when a portion of a data is needed or wanted to be created into a new array.
+    ex: const array1 = [1, 4, 9, 16];
+        // pass a function to map
+        const map1 = array1.map(x => x * 2);
+
+3. Arrow Functions: arternative to a traditional function expression. It's limited and can't be used in all situations.
